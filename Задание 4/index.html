@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="js_4.js"></script>
+	<link rel="stylesheet" href="css_4.css">
+	<title>В-21</title>
+</head>
+<body>
+	<div class="container">
+		<h1>№1</h1>
+		<div>
+			<h3>Площадь Элипса</h3>
+			<form>
+				<div class="input">
+					<div>Длинна А <input id = "ElA">	</div>
+					<div>Длинна B <input id = "ElB">	</div>
+				</div>
+				<a href="#" onclick=GetSOfEllipse()>Рассчитать</a>
+			</form>
+		</div>
+		<h1>№2</h1>
+		<div>
+			<form>
+				<div class="input">
+					<p>Cos <input type="text" maxlength="3" class = "CosInput" id = "CosX"></p>
+					<p><a href="#" onclick = GetCos()>Рассчитать</a></p>
+				</div>
+			</form>
+			<p>Результат: <var id = "CosXVal"></var></p>
+		</div>
+		<h1>№3</h1>
+		<div>Сформировать матрицу М1, вычтя из каждого элемента исходной ной матрицы М среднее арифметическое, вычисленное по всем ее элементам.</div>
+		<div>
+			<form>
+				<table id = "M">
+					<tr>
+						<th>1</th>
+						<th>2</th>
+						<th>3</th>
+						<th>4</th>
+						<th>5</th>
+					</tr>
+					<tr>
+						<th><input class = "tableCols" type="text" id = "thM11"></th>
+						<th><input class = "tableCols" type="text" id = "thM12"></th>
+						<th><input class = "tableCols" type="text" id = "thM13"></th>
+						<th><input class = "tableCols" type="text" id = "thM14"></th>
+						<th><input class = "tableCols" type="text" id = "thM15"></th>
+					</tr>
+					<tr>
+						<th><val id = "thM1"></val></th>
+						<th><val id = "thM2"></val></th>
+						<th><val id = "thM3"></val></th>
+						<th><val id = "thM4"></val></th>
+						<th><val id = "thM5"></val></th>
+					</tr>
+				</table>
+				<a href="#" onclick=  ArrFunc()>Рассчитать</a>
+			</form>
+		</div>
+		<h1>№4</h1>
+		<div id = "tsk4">
+			<form> 
+				<p> n = <input type="text" maxlength="2" id = 'n'></p>
+				<a href="#" onclick = FullFillTable()>Рассчитать</a>	
+			</form>
+		</div>
+	</div>
+</body>
+</html>

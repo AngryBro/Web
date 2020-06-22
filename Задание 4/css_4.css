@@ -1,0 +1,48 @@
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+.container div{
+	margin-left: 4vw;
+}
+
+a{
+	background-color: #aaa;
+	border-radius: 2px;
+	margin: 1vw;
+	padding: 0.5vh;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #333;
+}
+
+a:hover{
+	background-color: #888;
+	color: #222;
+	border: 1px solid #222;
+}
+
+input{
+	width: 5vw;
+}
+
+.input{
+	display: flex;
+	margin-bottom: 2vh;
+}
+
+.input div{
+	margin: 1vw;
+}
+
+.CosInput{
+	width: 2.5vw;
+}
+
+#M{
+	margin: 3vh;
+}
+
+#n{
+	width:  1.5vw;
+}
